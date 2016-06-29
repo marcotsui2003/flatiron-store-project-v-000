@@ -28,7 +28,7 @@ describe 'Feature Test: Store', :type => :feature do
 
         it 'does not display "Add To Cart" button' do
           visit store_path
-          expect(page).to_not have_content "Add To Cart"
+          expect(page).to_not have_content "Add to Cart"
         end
 
       end
